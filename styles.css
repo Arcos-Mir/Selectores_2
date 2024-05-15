@@ -1,0 +1,48 @@
+/* "*" este es un selector universal
+nos permite decir todo(todos los elementos 
+de nuestro sitio web
+ * {color: red}*/
+
+/* selector de etiqueta 
+nos permiten seleccionar los elementos de html
+para agregar mas elementos se siguen en la misma 
+linea con una ","*/
+
+h1{
+    color: blue;
+}
+/* selector descendente
+nos permite seleccionar diferentes 
+elementos que esten dentro de otro*/
+div p {
+    font-size: 25px;
+    color: black;
+}
+div article p {
+    font-size: 30px;
+    color:red; 
+}
+p a {
+    color: purple;
+}
+
+/* selector de clase
+se coloca al inicio un "." para 
+indicar que la clase de nombre "x"
+se le aplicara el estilo*/
+.grande {
+    font-size: 28px;
+}
+/* selector de id
+se coloca al inicio un "#" para 
+indicar que el id de nombre "x"
+se le aplicara el estilo*/
+#grande {
+    font-size: 25px;
+    color: blueviolet;
+}
+/* se pueden combinar
+por ejemplo
+.main article p{
+
+}*/
